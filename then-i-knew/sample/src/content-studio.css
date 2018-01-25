@@ -11,7 +11,7 @@
   font-size: calc(100vw / 6);
   font-family: "Mcclatchy Sans";
   font-weight: 100;
-  letter-spacing: -2px;
+  letter-spacing: -4px;
 }
 
 [id^=content-body] address {
