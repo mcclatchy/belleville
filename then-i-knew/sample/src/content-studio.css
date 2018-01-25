@@ -1,0 +1,49 @@
+/*
+ * Then I Knew project CSS file
+ */
+
+.project-lead-art {
+  margin: 0;
+}
+
+.project-title {
+  margin: 20px 20px 0;
+  font-size: calc(100vw / 6);
+  font-family: "Mcclatchy Sans";
+  font-weight: 100;
+  letter-spacing: -2px;
+}
+
+[id^=content-body] address {
+  margin: 0 20px 20px;
+  font: 17px/1em "McClatchy Sans";
+  text-transform: none;
+}
+
+h3.summary {
+  font: 22px/1.2em "McClatchy Sans";
+  color: #757575;
+  max-width: 530px;
+}
+
+@media (min-width: 768px) {
+  .project-title {
+    font-size: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project-lead-art {
+    padding-top: calc(100% * .5) !important;
+  }
+}
+
+#project-videos {
+  width: 100%;
+  border: none;
+}
+
+[id^=content-body] p {
+  font: 18px/1.5em "McClatchy Sans";
+  text-align: center;
+}

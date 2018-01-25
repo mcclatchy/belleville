@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Fuse dev template</title>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel="stylesheet" href="https://mcclatchy.github.io/fuse/css/fonts.css">
+    <link rel="stylesheet" href="https://mcclatchy.github.io/fuse/css/flex-layout.css">
+    <link rel="stylesheet" href="https://mcclatchy.github.io/fuse/css/typography.css">
+    <link rel="stylesheet" href="https://mcclatchy.github.io/fuse/css/fuse.css">
+    <link rel="stylesheet" href="https://mcclatchy.github.io/fuse/css/template.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <h1>Newspaper Flag</h1>
+        <nav>
+          <a href="https://mcclatchy.github.io/fuse/">HOME</a>
+          <a href="#">SECTION</a>
+          <a href="#">SECTION</a>
+        </nav>
+      </div>
+    </header>
+
+    <div id="content-body">
+
+<style>{{ file "sample/src/content-studio.css" | minify "text/html" }}</style>
+
+<div class="project-top fill tight">
+  <figure class="project-lead-art fill">
+    <img src="../img/lightbulb.jpg">
+  </figure>
+
+  <h1 class="project-title text-center text-normal">Then I Knew</h1>
+  <address class="text-center">
+    <span class="ng_byline_name">By Cara Anthony and Julian Lim</span>
+  </address>
+</div>
+
+<h3 class="summary text-center">Sharing the moments people realized they were being defined by something other than their actions.</h3>
+
+<figure style="max-width: 1200px; padding: 0;">
+  <script>  
+    window.addEventListener("message", e => {    
+      let d = e.data;    
+      if(d.sentinel == 'amp') {      
+        document.querySelector('#project-videos').style.height = d.height + 'px';    
+      }  
+      if(d.sentinel == 'video-scroll') {
+        document.querySelector('#project-videos').scrollIntoView();
+      }
+    });
+  </script>
+
+  <iframe 
+    id="project-videos"
+    src="../index.html"
+    height="540"
+    scrolling="no"></iframe>
+</figure>
+
+<p>When did you first realize race mattered and would be used to judge you? The question is important in Southern Illinois and St. Louis, MO, where race relations and civil rights repeatedly hit flash points. In 1837 a pro-slavery mob murdered abolitionist newspaper publisher Elijah Lovejoy in Alton, IL. In 1857 the U.S. Supreme Court ruled against the St. Louis lawsuit by slave Dred Scott, saying a black man was not entitled to rights that a white man must respect. In 1917 white mobs rioted over jobs in East St. Louis, IL, murdering hundreds of African Americans and burning a large swath of the city. In 2014 blacks rioted and burned parts of Ferguson, MO, when teen Michael Brown was shot to death by a white officer. In 2017 protesters and the Black Lives Matter movement were in St. Louis, MO, after news that police officer Jason Stockley was acquitted in the shooting death of black motorist Anthony Lamar Smith.</p>
+<p>Against that backdrop, these are the stories people shared about their moments of racial awakening: Then I Knew.</p>
+
+    </div>
+    <footer></footer>
+  </body>
+</html>
