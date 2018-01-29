@@ -54,8 +54,7 @@ videojs("player").ready(function() {
       pageName: 'Then I Knew'
     }
 
-    console.log(payload);
-    // vAnalytics.start(payload);
+    vAnalytics.start(payload);
   });
 });
 
