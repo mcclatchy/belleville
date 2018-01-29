@@ -2,6 +2,13 @@
  * Then I Knew project CSS file
  */
 
+@font-face {
+  font-family: "McClatchy Sans";
+  src: url('https://mcclatchy.github.io/fuse/css/fonts/mcclatchy-sans-thin.woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
 .project-lead-art {
   margin: 0;
 }
@@ -10,7 +17,7 @@
   margin: 20px 20px 0;
   font-size: calc(100vw / 6);
   font-family: "Mcclatchy Sans";
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: -4px;
 }
 

@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "mcclatchy-sans";
-  src: url("./fonts/mcclatchy-sans-thin.woff") format("woff");
+  src: url("./mcclatchy-sans-thin.woff") format("woff");
 }
 
 body {

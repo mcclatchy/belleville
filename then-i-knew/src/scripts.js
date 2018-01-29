@@ -51,7 +51,7 @@ videojs("player").ready(function() {
       title: info.name,
       duration: info.duration,
       vgrapher: info.customFields.byline1,
-      pageName: 'Title Town, TX'
+      pageName: 'Then I Knew'
     }
 
     console.log(payload);
